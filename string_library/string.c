@@ -206,3 +206,8 @@ int str_char(string src,char token){
     return -1;
 
 }
+
+void string_destroy(string src){
+    free(src);
+}
+
