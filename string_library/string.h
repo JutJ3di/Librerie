@@ -56,6 +56,7 @@ int c_count(string src);
 //conta caratteri speciali .!,;!"£$%&/()
 int s_count(string src);
 
-
+//libera la memoria
+void string_destroy(string src);
 
 #endif
